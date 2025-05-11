@@ -1,0 +1,32 @@
+.profile_view_container {
+    -fx-background-color: #FFFFFF;
+}
+
+.username {
+    -fx-font-size: 20px;  /* Bigger font */
+    -fx-font-weight: bold; /* Make it more visible */
+    -fx-text-fill: black;  /* Text color */
+    -fx-padding: 10px; /* Add padding */
+}
+
+
+.paddress {
+    -fx-font-size: 14px; /* Smaller than username */
+    -fx-text-fill: #555; /* Slightly faded */
+    -fx-padding: 10px; /* Add padding */
+}
+
+/* Checkings Account Label */
+.checkings-label, .savings-label {
+    -fx-font-size: 18px; /* Bigger font */
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 10px;
+}
+
+/* Checkings Account Number */
+.checkings-number, .savings-number {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555; /* Slightly faded */
+    -fx-padding: 10px;
+}

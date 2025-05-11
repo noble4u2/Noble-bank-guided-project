@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="profile_view_container" stylesheets="@../../Styles/Profile.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.noble.finalproject.Controllers.Client.ProfileController">
+   <Circle fx:id="profile_photo" fill="#253f25" layoutX="427.0" layoutY="128.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" styleClass="profile-picture" AnchorPane.topAnchor="100.0" />
+   <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="391.0" layoutY="235.0" size="100" styleClass="profile-icon" AnchorPane.leftAnchor="391.0" AnchorPane.rightAnchor="447.4" />
+   <VBox layoutX="277.0" layoutY="317.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="277.02857360839835" AnchorPane.rightAnchor="332.8285736083984">
+      <VBox prefHeight="133.3" prefWidth="100.0">
+         <Label styleClass="username" text="Username" />
+         <Label fx:id="name_lbl" styleClass="paddress" text="\@pAddress" />
+      </VBox>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="133.3" prefWidth="100.0">
+         <Label styleClass="checkings-label" text="Checkings Account Number" />
+         <Label fx:id="ch_acc_num_lbl" styleClass="checkings-number" text="000000000" />
+      </VBox>
+      <VBox layoutX="10.0" layoutY="144.0" prefHeight="133.3" prefWidth="100.0">
+         <Label styleClass="savings-label" text="Savings Account Number" />
+         <Label fx:id="sv_acc_num_lbl" styleClass="savings-number" text="000000000" />
+      </VBox>
+   </VBox>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="client_parent" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+<!--    This makes the Client Menu appear on the left side of the page-->
+    <left>
+        <fx:include source="ClientMenu.fxml"/>
+    </left>
+<!--    This makes the dashboard appear in the center of the page-->
+    <center>
+        <fx:include source="Dashboard.fxml"/>
+    </center>
+</BorderPane>
